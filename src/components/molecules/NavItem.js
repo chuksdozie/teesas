@@ -4,7 +4,7 @@ import MainText from "../atoms/MainText";
 import Icon from "../atoms/Icon";
 
 const NavItem = (props) => {
-  const { src, text, href } = props;
+  const { src, text } = props;
   const [hover, setHover] = useState(false);
   return (
     <A href="">
